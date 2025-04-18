@@ -8,7 +8,7 @@ Each problem set is contained in its own folder.
 ## Problem Sets
 
 | Problem Set | Topics | Folder |
-|-------------|--------|--------|
+|:-------------:|--------|:--------:|
 | pset1 | C Basics: `hello`, `mario`, `cash`, `credit` | [pset1/](./pset1) |
 | pset2 | Arrays & Strings: `readability`, `caesar`, `substitution` | [pset2/](./pset2) |
 | pset3 | Algorithms: `plurality`, `runoff`, `tideman` | [pset3/](./pset3) |
