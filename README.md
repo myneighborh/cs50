@@ -9,14 +9,6 @@ Each problem set is contained in its own folder.
 
 | Problem Set | Topics | Folder |
 |:-------------:|--------|:--------:|
-| pset1 | C Basics: `hello`, `mario`, `cash`, `credit` | [pset1/](./pset1) |
-| pset2 | Arrays & Strings: `readability`, `caesar`, `substitution` | [pset2/](./pset2) |
-| pset3 | Algorithms: `plurality`, `runoff`, `tideman` | [pset3/](./pset3) |
-| pset4 | Memory: `filter`, `recover` | [pset4/](./pset4) |
-| pset5 | Data Structures: `speller` | [pset5/](./pset5) |
-| pset6 | Python: `hello`, `cash`, `credit` | [pset6/](./pset6) |
-| pset7 | SQL: `movies`, `fiftyville` | [pset7/](./pset7) |
-| pset8 | Web Programming: `homepage`, `finance` | [pset8/](./pset8) |
-| Final | Final Project | [final/](./final) |
-
+| pset1 | C: `hello.c`, `mario.c` | [pset1/](./pset1) |
+| pset2 | Arrays:  | [pset2/](./pset2) |
 ---
