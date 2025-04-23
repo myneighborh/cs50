@@ -8,8 +8,10 @@ int get_start_digits(long number, int digits);
 
 int main(void)
 {
+    // Prompt the user for card number
     long number = get_long("Number: ");
 
+    // Check VALID or INVALID
     if (check_luhn(number))
     {
         printf("%s\n", get_card_type(number));
@@ -27,19 +29,25 @@ bool check_luhn (long number)
 
     while (number > 0)
     {
-        int digit = number % 10; // Get the last digit by taking modulo 10
+        // Get the last digit by taking modulo 10
+        int digit = number % 10;
 
-        if (count % 2 == 0) // Odd-positioned digit(from the right)
+        // Odd-positioned digit(from the right)
+        if (count % 2 == 0)
         {
             sum += digit;
         }
-        else // Even-positioned digit(from the right)
+
+        // Even-positioned digit(from the right)
+        else
         {
+            // Handles the case where doubling results in a two-digit number
             int doubled = digit * 2;
-            sum += (doubled / 10) + (doubled % 10); // Handles the case where doubling results in a two-digit number
+            sum += (doubled / 10) + (doubled % 10);
         }
 
-        number /= 10; // Remove the last digit
+        // Remove the last digit
+        number /= 10;
         count++;
     }
 
@@ -72,13 +80,13 @@ string get_card_type(long number)
 
 int get_length(long number)
 {
-    int count = 0;
+    int length = 0;
     while (number > 0)
     {
         number /= 10;
-        count++;
+        length++;
     }
-    return count;
+    return length;
 }
 
 int get_start_digits(long number, int digits)
