@@ -2,31 +2,25 @@
 #include <stdio.h>
 #include <math.h>
 
-int get_cents(void);
 int calculate_coins(int cents);
-
 
 int main(void)
 {
-    int cents = get_cents();
-    int coins = calculate_coins(cents);
-    printf("%d\n", coins);
-}
-
-int get_cents(void)
-{
-    float dollars;
+    // Prompt the user for change owed, in cents
+    int cents;
     do
     {
-        dollars = get_float("Change owed: ");
+        cents = get_int("Changed owed: ");
     }
-    while (dollars < 0);
-
-    return round(dollars * 100);
+    while(cents < 0);
+    
+    int coins = calculate_coins(cents);
+    printf("%i\n", coins);
 }
 
 int calculate_coins(int cents)
 {
+    // Calculate how many coins you should give customer
     int coins = 0;
     coins += cents / 25;
     cents %= 25;
