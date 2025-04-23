@@ -1,42 +1,47 @@
-#include <cs50.h>
 #include <stdio.h>
+#include <cs50.h>
 
-#define MIN_HEIGHT 1
-#define MAX_HEIGHT 8
-
-int get_height(void);
-void print_pyramid(int height);
+void print_row(int bricks, int total_height);
 
 int main(void)
 {
-    int height = get_height();
-    print_pyramid(height);
-}
-
-int get_height(void)
-{
-    int h;
+    // Prompt user for input
+    int height;
     do
     {
-        h = get_int("Height: ");
+        height = get_int("What is the height of pyramid?");
     }
-    while (h < MIN_HEIGHT || h > MAX_HEIGHT);
-    return h;
+    while (height < 1 || height > 8);
+    
+    // Print a pyramid of that height
+    for (int i = 0; i < height; i++)
+    {
+        print_row(i + 1, height);
+    }
 }
 
-void print_pyramid(int height)
+void print_row(int bricks, int total_height)
 {
-    for (int row = 1; row <= height; row++)
+    // Print spaces
+    for (int i = 0; i < total_height - bricks; i++)
     {
-        for (int space = 0; space < height - row; space++)
-        {
-            printf(" ");
-        }
-
-        for (int hash = 0; hash < row; hash++)
-        {
-            printf("#");
-        }
-        printf("\n");
+        printf(" ");
     }
+
+    // Print left hashes
+    for (int i = 0; i < bricks; i++)
+    {
+        printf("#");
+    }
+
+    // Print gap
+    printf("  ");
+
+    // Print right hashes
+    for (int i = 0; i < bricks; i++)
+    {
+        printf("#");
+    }
+
+    printf("\n");
 }
