@@ -23,9 +23,6 @@ This repository contains my solutions for Problem Set 1 (pset1) from Harvard's C
   Chooses the largest coin possible at each step  
   → `quarters → dimes → nickels → pennies`
 
-- **Precision Handling**:  
-  Converts dollars (float) to cents (int) using `round()` to avoid floating point inaccuracies.
-
 ---
 
 ### credit.c
