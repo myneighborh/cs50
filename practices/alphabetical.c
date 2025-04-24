@@ -13,8 +13,9 @@ int main(int argc, string argv[])
     }
 
     string text = argv[1];
+    int len = strlen(text);
 
-    for (int i = 0; i < strlen(text); i++)
+    for (int i = 0; i < len; i++)
     {
         if (!isalpha(text[i]))
         {
@@ -24,7 +25,7 @@ int main(int argc, string argv[])
     }
 
     // Iterate through each element in the string
-    for (int i = 1; i < strlen(text); i++)
+    for (int i = 1; i < len; i++)
     {
         // check if it is alphabetical
         if (text[i] < text [i - 1])
