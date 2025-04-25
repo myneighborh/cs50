@@ -1,7 +1,7 @@
-#include <stdio.h>
 #include <cs50.h>
 #include <ctype.h>
 #include <math.h>
+#include <stdio.h>
 
 int count_letters(string text);
 int count_words(string text);
@@ -18,41 +18,42 @@ int main(void)
 
 int count_letters(string text)
 {
-    int count = 0;
+    int letters = 0;
     for (int i = 0; text[i] != '\0'; i++)
     {
         if (isalpha(text[i]))
         {
-            count++;
+            letters++;
         }
     }
-    return count;
+    return letters;
 }
 
 int count_words(string text)
 {
-    int count = 1;
+    int spaces = 0;
     for (int i = 0; text[i] != '\0'; i++)
     {
         if (isspace(text[i]))
         {
-            count++;
+            spaces++;
         }
     }
-    return count;
+    int words = spaces + 1;
+    return words;
 }
 
 int count_sentences(string text)
 {
-    int count = 0;
+    int sentences = 0;
     for (int i = 0; text[i] != '\0'; i++)
     {
         if (text[i] == '.' || text[i] == '!' || text[i] == '?')
         {
-            count++;
+            sentences++;
         }
     }
-    return count;
+    return sentences;
 }
 
 int compute_grade(string text)
