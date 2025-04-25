@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
 void print_row(int bricks, int total_height);
 

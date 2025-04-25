@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-bool check_luhn (long number);
+bool check_luhn(long number);
 string get_card_type(long number);
 int get_length(long number);
 int get_start_digits(long number, int digits);
@@ -22,7 +22,7 @@ int main(void)
     }
 }
 
-bool check_luhn (long number)
+bool check_luhn(long number)
 {
     int sum = 0;
     int count = 0;

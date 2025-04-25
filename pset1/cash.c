@@ -1,6 +1,6 @@
 #include <cs50.h>
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 int calculate_coins(int cents);
 
@@ -12,8 +12,8 @@ int main(void)
     {
         cents = get_int("Changed owed: ");
     }
-    while(cents < 0);
-    
+    while (cents < 0);
+
     int coins = calculate_coins(cents);
     printf("%i\n", coins);
 }
@@ -25,7 +25,7 @@ int calculate_coins(int cents)
     coins += cents / 25;
     cents %= 25;
 
-    coins += cents /10;
+    coins += cents / 10;
     cents %= 10;
 
     coins += cents / 5;
