@@ -6,22 +6,22 @@ Each folder represents a weekly problem set aligned with the course topics.
 ## Problem Sets
 
 - [**pset0 – Scratch**](./pset0/)  
-  Introduction to programming using Scratch (block-based logic).
+  Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs. Representation: Unary, Binary, Decimal, ASCII, Unicode, RGB. Abstraction. Algorithms. Running Times. Pseudocode. Scratch: Functions, Arguments, Return Values; Variables; Boolean Expressions, Conditionals; Loops; Events; Threads.
 
 - [**pset1 – C Basics**](./pset1/)  
-  Learn the basics of C: compilation, functions, conditionals, and loops.
+  C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studio Code. Syntax Highlighting. Escape Sequences. Header Files. Libraries. Manual Pages. Types. Conditionals. Variables. Loops. Linux. Graphical User Interface (GUI). Command-Line Interface (CLI). Constants. Comments. Pseudocode. Operators. Integer Overflow. Floating-Point Imprecision.
 
 - [**pset2 – Arrays**](./pset2/)  
-  Implement classic ciphers like Caesar and Substitution using arrays.
+  Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Command-Line Arguments. Cryptography.
 
 - [**pset3 – Algorithms**](./pset3/)  
-  Implement searching and sorting algorithms (e.g., binary search, bubble sort).
+  Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, Merge Sort. Asymptotic Notation: O, Ω, Θ. Recursion.
 
 - [**pset4 – Memory**](./pset4/)  
-  Explore pointers, memory allocation, and file I/O through filter and recover.
+  Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Overflow. File I/O. Images.
 
 - [**pset5 – Data Structures**](./pset5/)  
-  Implement a spell-checker using hash tables and linked lists.
+  Abstract Data Types. Queues, Stacks. Linked Lists. Trees, Binary Search Trees. Hash Tables. Tries
 
 - [**pset6 – Python Basics**](./pset6/)  
-  Transition from C to Python; rewrite previous problems in Python.
+  Python: Functions, Arguments, Return Values; Variables; Boolean Expressions, Conditionals; Loops. Modules, Packages.
