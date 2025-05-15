@@ -1,14 +1,36 @@
-# CS50 Problem Set Solutions
+# CS50
 
-This repository contains my solutions for Harvard's CS50 problem sets.  
-Each problem set is contained in its own folder.
-
----
+This repository contains my solutions to Harvard's CS50.  
+Each folder represents a weekly problem set aligned with the course topics.
 
 ## Problem Sets
 
-| Problem Set | Topics | Folder |
-|:-------------:|--------|:--------:|
-| pset1 | C: `hello.c`, `mario.c` | [pset1/](./pset1) |
-| pset2 | Arrays:  | [pset2/](./pset2) |
----
+- [**pset0 – Scratch**](./pset0/)  
+  Introduction to programming using Scratch (block-based logic).
+
+- [**pset1 – C Basics**](./pset1/)  
+  Learn the basics of C: compilation, functions, conditionals, and loops.
+
+- [**pset2 – Arrays & Cryptography**](./pset2/)  
+  Implement classic ciphers like Caesar and Substitution using arrays.
+
+- [**pset3 – Algorithms**](./pset3/)  
+  Implement searching and sorting algorithms (e.g., binary search, bubble sort).
+
+- [**pset4 – Memory**](./pset4/)  
+  Explore pointers, memory allocation, and file I/O through filter and recover.
+
+- [**pset5 – Data Structures**](./pset5/)  
+  Implement a spell-checker using hash tables and linked lists.
+
+- [**pset6 – Python Basics**](./pset6/)  
+  Transition from C to Python; rewrite previous problems in Python.
+
+- [**pset7 – Regular Expressions & Validation**](./pset7/)  
+  Use `re` module for input validation (e.g., license plates, IP addresses).
+
+- [**pset8 – Web Programming**](./pset8/)  
+  Create dynamic websites using HTML, CSS, and JavaScript.
+
+- [**pset9 – Web App with Flask**](./pset9/)  
+  Build a full web application using Python and Flask.
