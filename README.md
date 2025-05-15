@@ -11,7 +11,7 @@ Each folder represents a weekly problem set aligned with the course topics.
 - [**pset1 – C Basics**](./pset1/)  
   Learn the basics of C: compilation, functions, conditionals, and loops.
 
-- [**pset2 – Arrays & Cryptography**](./pset2/)  
+- [**pset2 – Arrays**](./pset2/)  
   Implement classic ciphers like Caesar and Substitution using arrays.
 
 - [**pset3 – Algorithms**](./pset3/)  
@@ -25,12 +25,3 @@ Each folder represents a weekly problem set aligned with the course topics.
 
 - [**pset6 – Python Basics**](./pset6/)  
   Transition from C to Python; rewrite previous problems in Python.
-
-- [**pset7 – Regular Expressions & Validation**](./pset7/)  
-  Use `re` module for input validation (e.g., license plates, IP addresses).
-
-- [**pset8 – Web Programming**](./pset8/)  
-  Create dynamic websites using HTML, CSS, and JavaScript.
-
-- [**pset9 – Web App with Flask**](./pset9/)  
-  Build a full web application using Python and Flask.
