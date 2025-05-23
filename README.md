@@ -1,6 +1,6 @@
 # CS50
 
-This repository contains my solutions to Harvard's CS50.  
+This repository contains my solutions to Harvard's CS50 course.  
 Each folder represents a weekly problem set aligned with the course topics.
 
 ## Problem Sets
